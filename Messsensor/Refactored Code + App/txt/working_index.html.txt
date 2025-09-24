@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Monitor</h1>
+        <canvas id="temperatureChart"></canvas>
+    </div>
+    <script src="{{ url_for('static', filename='js/chart-config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/data-service.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chart-manager.js') }}"></script>
+</body>
+</html>

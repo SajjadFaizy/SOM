@@ -1,0 +1,31 @@
+temperature_monitor/
+├── main.py
+├── read_publish.py
+├── sim_temp_values.py
+├── requirements.txt
+├── config/
+│   ├── __init__.py
+│   ├── config.py
+│   └── logging_config.py
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       ├── chart-config.js
+│       ├── data-service.js
+│       └── chart-manager.js
+├── templates/
+│   └── index.html
+└── src/
+    ├── __init__.py
+    ├── data_collection/
+    │   ├── __init__.py
+    │   ├── temperature_reader.py
+    │   └── mqtt_publisher.py
+    ├── data_processing/
+    │   ├── __init__.py
+    │   └── mqtt_subscriber.py
+    └── web_interface/
+        ├── __init__.py
+        ├── app.py
+        └── routes.py
